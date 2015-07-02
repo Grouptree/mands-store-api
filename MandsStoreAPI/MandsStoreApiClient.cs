@@ -61,7 +61,7 @@ namespace MandsStoreAPI
         /// <returns>A <see cref="StoreInfo"/> object containing information about the store.</returns>
         public async Task<StoreInfo> GetStoreInfo(string storeId)
         {
-            var rawResponse = await GetRawStoreInfo(storeId);
+            var rawResponse = await GetRawStoreInfo(storeId).ConfigureAwait(false);
             return JsonConvert.DeserializeObject<StoreInfo>(rawResponse);
         }
     }
