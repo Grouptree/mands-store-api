@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MandsStoreAPI
 {
     /// <summary>
-    /// Provides access to the M&S Store API.
+    /// Provides access to the M&amp;S Store API.
     /// </summary>
     public class MandsStoreApiClient
     {
