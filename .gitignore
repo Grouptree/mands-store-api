@@ -193,3 +193,6 @@ ModelManifest.xml
 # NuGet Package restore
 packages/*
 !packages/repositories.config
+
+# Local settings
+localsettings.config
